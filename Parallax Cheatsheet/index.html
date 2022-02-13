@@ -1,0 +1,99 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!--CSS Stylesheet-->
+    <link rel="stylesheet" href="styles.css">
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+
+    <title>Boostrap 5: Parallax Cheatsheet</title>
+  </head>
+
+  <!--START CONTENT SECTION-->
+  <body>
+    <header class="container-fluid bg-primary text-center p-5 text-white parallax parallax-img">
+      <h1>Bootstrap 5: Parallax Cheatsheet</h1>
+      <p>This website is meant to show you how to easily style an image to have parallax scrolling on your website.</p>
+    </header>
+
+    <!--WHAT IS PARALLAX CONTAINER-->
+
+    <div class="container">
+      <div class="row about">
+        <div class="col-lg-8">
+          <div class="box">
+            <h2 class="text-center">What is Parallax?</h2><br>
+            <p>Parallax scrolling is a Bootstrap function that allows for the foreground and background to scroll at different speeds. It enables elements in the foreground to scroll past a fixed image in the background.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!--HOW TO CONTAINER-->
+    <div class="container">
+      <div class="row instructions">
+        <div class="col-lg-8">
+          <div class="box">
+            <h2 class="text-center">Parallax with HTML, CSS, and Bootstrap</h2><br>
+
+
+            <p>1. Create a .parallax class within CSS.
+              <br><br>
+
+
+              2. Within that class, add the following declarations to the CSS class:<br>
+              <blockquote>.parallax { <br>
+                min-height: [whichever height];<br>
+                background-attachment: fixed; <br>
+                background-size: cover;<br>
+                background-position: 50% 50%;<br>
+              }</blockquote>
+
+
+              3. Create a .parallax-img class: <br>
+              <blockquote>.parallax-img { <br>
+                background-image: url(<em>insert url here</em>);<br>
+              }</blockquote>
+
+
+
+              4. Go into HTML and create a DIV with with the following classes.<br>
+              <blockquote>< div class="container parallax   parallax-img bg-primary" ></blockquote>
+
+              <strong>IMPORTANT:</strong> Don't forget to add a bg-primary (or another Bootstrap background class) or else your image may not show up. If it doesn't, add an <strong>!important</strong> command to the .parallax-img class.
+              
+              <br><br> 
+
+              5. Style the image how you like. Changing the min-height and background-position can change the way your image looks. Adding the Bootstrap class container-fluid will make the image span across 100% of the screen and adding a height of 100vh; to the parallax class will make the image 100% of the view screen. 
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+
+    <footer class="container-fluid text-center text-white bg-dark">
+      <div class="row">
+        <div class="col">
+          <p class="footer-text">Copyright: Kailee Missler</p>
+        </div>
+      </div>
+    </footer>
+
+    
+
+
+    
+
+   
+    
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js" integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF" crossorigin="anonymous"></script>
+
+  </body>
+</html>
