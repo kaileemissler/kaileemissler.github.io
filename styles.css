@@ -28,9 +28,7 @@ h1 {
     .paral h1 {
         color: rgba(255, 255, 255);
         font-size: 60px;
-        text-align: center;
-        align-items: center;
-        padding-top: 420px;
+        padding-top: 25%;
         line-height: 100px;
         }
 
