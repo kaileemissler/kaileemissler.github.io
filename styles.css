@@ -1,6 +1,18 @@
 /* FONTS */ 
 @import url('https://fonts.googleapis.com/css2?family=Oooh+Baby&family=Poppins:wght@300;400;700&display=swap');
 
+/* COLORS 
+
+Deep Red: #931E3D
+Pink: #E888A4
+Dusty Rose: #A86A7D
+Off-White: #F7EDEA
+
+
+*/
+
+
+
 /* GENERAL STYLING */
 
 * {
@@ -41,4 +53,10 @@ h1 {
 .nav-item {
     margin-right: 80px;
     margin-top: 10px;
+}
+
+/* About Me */
+
+.aboutme {
+    background-color: #F7EDEA !important;
 }
