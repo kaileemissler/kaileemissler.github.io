@@ -20,6 +20,8 @@ Pink: #E0A49A
 
 */
 
+/* GENERAL STYLING */
+
 
 h1 {
     font-family: 'Noto Sans', sans-serif;
@@ -28,12 +30,24 @@ h1 {
     font-size: 3.5rem !important;
 }
 
+h2 {
+    font-family: 'Noto Sans', sans-serif;
+    font-weight: 700;
+    color:#742006;
+    font-size: 2rem !important;
+}
+
 p,ul,ol {
     font-family: 'Merriweather', serif;
     font-weight: 300;
     margin: 0 !important;
     padding: 0 !important;
+    color: #442916 !important;
 }
+
+
+
+/* HEADER STYLING */
 
 .hrow {
     height: 5rem !important;
@@ -60,3 +74,5 @@ button {
     margin: 0 !important;
     padding: 0 !important;
 }
+
+
