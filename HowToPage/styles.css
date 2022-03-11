@@ -42,7 +42,7 @@ p,ul,ol {
     font-weight: 300;
     margin: 0 !important;
     padding: 0 !important;
-    color: #442916 !important;
+    color: #442916;
 }
 
 
@@ -58,8 +58,8 @@ p,ul,ol {
 }
 
 
-button {
-  background-color: #742006;
+.button {
+  background-color: #742006 !important;
   font-family: 'Noto Sans', sans-serif !important;
   border: none;
   color: white;
@@ -68,6 +68,17 @@ button {
   text-decoration: none;
   font-size: 16px;
 }
+
+.button:hover {
+    background-color: #E0A49A !important;
+    font-family: 'Noto Sans', sans-serif !important;
+    border: none;
+    color: white;
+    padding: 10px 32px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 16px;
+  }
 
 
 .img-container {
