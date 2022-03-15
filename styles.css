@@ -2,22 +2,16 @@
 @import url('https://fonts.googleapis.com/css2?family=Oooh+Baby&family=Poppins:wght@300;400;700&display=swap');
 
 /* COLORS 
-
 Deep Red: #931E3D
 Pink: #E888A4
 Dusty Rose: #A86A7D
 Off-White: #F7EDEA
-
-
 */
 
-
-
-/* GENERAL STYLING */
+/* HEADER */
 
 * {
-    font-family: 'Poppins', sans-serif;
-    font-weight: 300;
+   font-family: 'Poppins', sans-serif;
 }
 
 h1 {
@@ -25,35 +19,17 @@ h1 {
     font-size: 5rem !important;
 }
 
-/* Header Parallax Element Style*/ 
+li>a {
+    text-decoration: none;
+    color: white;
+}
 
-.paral {
+.parallax {
     min-height: 100vh;
+    width: auto;
     background: linear-gradient(0deg, rgba(0,0,0,40%), rgba(0, 0, 0,40%)), url(https://images.pexels.com/photos/1182338/pexels-photo-1182338.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260);
     background-attachment: fixed;
     background: rbga(0,0,0,0.25);
     background-size: cover;
     background-position: 50% 50%;
-    }
-    
-
-    .paral h1 {
-        color: rgba(255, 255, 255);
-        font-size: 60px;
-        padding-top: 25%;
-        line-height: 100px;
-        }
-
-/* NAVIGATION */
-
-
-.nav-item {
-    margin-right: 80px;
-    margin-top: 10px;
-}
-
-/* About Me */
-
-.aboutme {
-    background-color: #F7EDEA !important;
 }
