@@ -1,0 +1,62 @@
+/* RESPONSIVE TOUR */
+
+@media only screen and (max-width:1400px) {
+.tourpad {
+    padding-left: 200px !important;
+    padding-top: 75px !important;
+}
+}
+
+/* MUSIC */
+
+.cover {
+    background-color:aqua;
+    height: 300px;
+    width: 300px;
+}
+
+.col-pad {
+    padding-left: 200px !important;
+}
+
+/* BIO SECTION */
+
+.bioimage {
+    height: 600px;
+    width: 450px;
+    background-color: purple;
+}
+
+.biopad {
+    padding-top: 200px !important;
+    padding-right: 200px !important;
+}
+
+/* COLLAB */
+
+.collabbox {
+    background-color:chartreuse;
+    height: 150px;
+    width: 150px;
+
+}
+
+/* RESPONSIVE WATCH SECTION */
+
+.videoResponsive {
+    padding-bottom:56.25%;
+  height:0;
+  position:relative;
+    padding-top:30px;
+    overflow:hidden;
+}
+.videoResponsive iframe, 
+.videoResponsive object, 
+.videoResponsive embed {
+    position:absolute;
+    left:0;
+  top:0;
+    width:100%;
+    height:100%;
+}
+
