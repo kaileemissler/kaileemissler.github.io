@@ -36,7 +36,6 @@ a {
 }
 
 
-
 /* Background Image */
 
 .bgimg {
@@ -54,7 +53,9 @@ a {
      }
     }
 
-
+.navhover:hover {
+    color:#FF5487 !important;
+}
 /* Tour Section */
 
 .tourpad {
@@ -169,6 +170,10 @@ a {
 .icon:hover {
     color:#00C1F0 !important; 
 }
+
+.foothover:hover {
+    color: white !important;
+} 
 
 
 
