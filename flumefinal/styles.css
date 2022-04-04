@@ -51,13 +51,6 @@ a {
      }
  }
 
- @media only screen and (max-width: 428px) {
-     .navstyle {
-         padding-top: 100px !important;
-         color: black;
-    `    text-decoration: none;
-     }
- }
 
 .navhover:hover {
     color:#FF5487 !important;
