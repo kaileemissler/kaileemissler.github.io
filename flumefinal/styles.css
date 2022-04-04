@@ -51,6 +51,12 @@ a {
      }
  }
 
+ @media only screen and (max-width: 428px) {
+     .navstyle {
+         padding-left: 30px !important;
+     }
+ }
+
 
 .navhover:hover {
     color:#FF5487 !important;
