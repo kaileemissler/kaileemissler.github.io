@@ -3,7 +3,7 @@
 Pink: #EC6367;
 Dark Purple: #534787;
 Light Purple: #e7e6f7;
-Medium Purple: #a4a03d;
+Medium Purple: #a4a0ed;
 Off-Black:  #0f110c;
 
 
@@ -11,7 +11,7 @@ Off-Black:  #0f110c;
 
 /* Fonts */
 
-@import url('https://fonts.googleapis.com/css2?family=Lalezar&family=Open+Sans:wght@500;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lalezar&family=Open+Sans:wght@400;500;700&display=swap');
 
 
 /* General Styling */
@@ -21,8 +21,14 @@ h1 h2 h3 {
 }
 
 p {
+  font-size: .9rem;
+}
+
+
+
+* {
     font-family: 'Open Sans' sans-serif;
-    font-weight: 500;
+    font-weight: 400;
 }
 
 
@@ -31,42 +37,126 @@ p {
 
 #neubar {
     background: #e7e6f7;
-    box-shadow: 4px 6px 12px rgba(0,0,0,0.4)
-  }
-  
-  .nav-item .active {
+    box-shadow: 4px 6px 12px rgba(0,0,0,0.4);
+  } 
+  #neubar a:hover {
+    color: #534787 !important;
     border-radius: 6px;
-    background: linear-gradient(145deg, #e7e6f7, #a4a0ed);
-  }
-  #neubar .dropdown-menu a:hover {
-    color: #454545
+    background: linear-gradient(145deg, #e7e6f7, #a4a0ed)
   }
   #neubar .nav-item {
     margin : auto 4px;
   }
   #neubar a {
-  
+    color: #0f110c;
     padding-left:12px;
     padding-right:12px;
   }
   #neubar .dropdown-menu {
-    background : #545454
+    background : #0f110c;
   }
   a.navbar-brand {
-    color: #454545
+    color: #0f110c;
   }
 
   /* Header Styling */
 
-
-  .headimg {
-    background-image: url('images/main.png');
-    background-size: cover;
-  }
+.head {
+  background-color: #EC6367 !important;
+}
     
-  
-    .htext{
-      padding: 275px 5px 10px 400px;
-      color: white;
-    }
+@media only screen and (max-width: 991px) {
+  .head {
+    background-color: #EC6367 !important;
+    padding-top: 200px !important;
+  }
+} 
 
+/* Development Styling */
+
+.develop {
+  background-color: #e7e6f7;
+  border: 20px solid #534787;
+}
+
+.lisize {
+  font-size: .9rem;
+}
+
+.button-develop {
+  background-color: #EC6367;
+  border-radius: 8px;
+  border-style: none;
+  box-sizing: border-box;
+  color: #black;
+  cursor: pointer;
+  display: inline-block;
+  font-family: 'Lalezar' serif;
+  font-size: 14px;
+  font-weight: 500;
+  height: 40px;
+  line-height: 20px;
+  list-style: none;
+  margin: 0;
+  outline: none;
+  padding: 10px 16px;
+  position: relative;
+  text-align: center;
+  text-decoration: none;
+  transition: color 100ms;
+  vertical-align: baseline;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+}
+
+.button-develop:hover,
+.button-develop:focus {
+  background-color: #a4a0ed;
+}
+
+/* Implementation Styling */
+
+.implement {
+  background-color: #534787;
+  border: 20px solid #a4a0ed;
+}
+
+/* Evaluation Styling */
+
+.evaluate {
+  background-color: #EC6367; 
+  border: 20px solid #534787;
+}
+
+.button-evaluate {
+  background-color: #534787;
+  border-radius: 8px;
+  border-style: none;
+  box-sizing: border-box;
+  color: white;
+  cursor: pointer;
+  display: inline-block;
+  font-family: 'Lalezar' serif;
+  font-size: 14px;
+  font-weight: 500;
+  height: 40px;
+  line-height: 20px;
+  list-style: none;
+  margin: 0;
+  outline: none;
+  padding: 10px 16px;
+  position: relative;
+  text-align: center;
+  text-decoration: none;
+  transition: color 100ms;
+  vertical-align: baseline;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+}
+
+.button-evaluate:hover,
+.button-evaluate:focus {
+  background-color: #a4a0ed;
+}
