@@ -1,0 +1,72 @@
+/* Colors 
+
+Pink: #EC6367;
+Dark Purple: #534787;
+Light Purple: #e7e6f7;
+Medium Purple: #a4a03d;
+Off-Black:  #0f110c;
+
+
+*/
+
+/* Fonts */
+
+@import url('https://fonts.googleapis.com/css2?family=Lalezar&family=Open+Sans:wght@500;700&display=swap');
+
+
+/* General Styling */
+
+h1 h2 h3 {
+    font-family: 'Lalezar' sans-serif !important;
+}
+
+p {
+    font-family: 'Open Sans' sans-serif;
+    font-weight: 500;
+}
+
+
+
+/* Navigation Styling */
+
+#neubar {
+    background: #e7e6f7;
+    box-shadow: 4px 6px 12px rgba(0,0,0,0.4)
+  }
+  
+  .nav-item .active {
+    border-radius: 6px;
+    background: linear-gradient(145deg, #e7e6f7, #a4a0ed);
+  }
+  #neubar .dropdown-menu a:hover {
+    color: #454545
+  }
+  #neubar .nav-item {
+    margin : auto 4px;
+  }
+  #neubar a {
+  
+    padding-left:12px;
+    padding-right:12px;
+  }
+  #neubar .dropdown-menu {
+    background : #545454
+  }
+  a.navbar-brand {
+    color: #454545
+  }
+
+  /* Header Styling */
+
+
+  .headimg {
+    background-image: url('images/main.png');
+    background-size: cover;
+  }
+    
+  
+    .htext{
+      padding: 275px 5px 10px 400px;
+      color: white;
+    }
+
