@@ -1,0 +1,100 @@
+/* Colors 
+
+Pink: #EC6367;
+Dark Purple: #534787;
+Light Purple: #e7e6f7;
+Medium Purple: #a4a0ed;
+Off-Black:  #0f110c;
+
+
+*/
+
+/* Fonts */
+
+@import url('https://fonts.googleapis.com/css2?family=Lalezar&family=Open+Sans:wght@400;500;700&display=swap');
+
+* {
+    font-family: 'Open Sans' sans-serif !important;
+}
+
+/* Navigation Styling */
+
+#neubar {
+    background: #e7e6f7;
+    box-shadow: 4px 6px 12px rgba(0,0,0,0.4);
+  } 
+  #neubar a:hover {
+    color: #534787 !important;
+    border-radius: 6px;
+    background: linear-gradient(145deg, #e7e6f7, #a4a0ed)
+  }
+  #neubar .nav-item {
+    margin : auto 4px;
+  }
+  #neubar a {
+    color: #0f110c;
+    padding-left:12px;
+    padding-right:12px;
+  }
+  #neubar .dropdown-menu {
+    background : #0f110c;
+  }
+  a.navbar-brand {
+    color: #0f110c;
+  }
+
+/* Research Styling */
+
+.research {
+    padding-top: 30px;
+}
+
+.button-research {
+    font-family: 'Open Sans';
+    background-color: #EC6367;
+    border-radius: 8px;
+    border-style: none;
+    box-sizing: border-box;
+    color: white;
+    cursor: pointer;
+    display: inline-block;
+    font-family: 'Lalezar' serif;
+    font-size: 14px;
+    font-weight: 500;
+    height: 40px;
+    line-height: 20px;
+    list-style: none;
+    margin: 0;
+    outline: none;
+    padding: 10px 16px;
+    position: relative;
+    text-align: center;
+    text-decoration: none;
+    transition: color 100ms;
+    vertical-align: baseline;
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+  }
+  
+  .button-research:hover,
+  .button-research:focus {
+    background-color: #a4a0ed;
+  }
+
+  .link {
+      text-decoration: none;
+      color: #534787;
+  }
+
+  .link:hover {
+    text-decoration: none;
+    color: #EC6367;
+}
+
+/* Footer Styling */
+.footer {
+    background-color: #534787;
+    color: white;
+  }
+

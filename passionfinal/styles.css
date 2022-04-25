@@ -68,7 +68,7 @@ p {
 @media only screen and (max-width: 991px) {
   .head {
     background-color: #EC6367 !important;
-    padding-top: 200px !important;
+    padding-top: 115px !important;
   }
 } 
 
@@ -84,6 +84,7 @@ p {
 }
 
 .button-develop {
+  font-family: 'Open Sans';
   background-color: #EC6367;
   border-radius: 8px;
   border-style: none;
@@ -91,7 +92,6 @@ p {
   color: #black;
   cursor: pointer;
   display: inline-block;
-  font-family: 'Lalezar' serif;
   font-size: 14px;
   font-weight: 500;
   height: 40px;
@@ -122,6 +122,39 @@ p {
   border: 20px solid #a4a0ed;
 }
 
+.button-implement {
+  background-color: #EC6367;
+  border-radius: 8px;
+  border-style: none;
+  box-sizing: border-box;
+  color: white;
+  cursor: pointer;
+  display: inline-block;
+  font-family: 'Open Sans';
+  font-size: 14px;
+  font-weight: 500;
+  height: 40px;
+  line-height: 20px;
+  list-style: none;
+  margin: 0;
+  outline: none;
+  padding: 10px 16px;
+  position: relative;
+  text-align: center;
+  text-decoration: none;
+  transition: color 100ms;
+  vertical-align: baseline;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+}
+
+.button-implement:hover,
+.button-implement:focus {
+  background-color: #a4a0ed;
+}
+
+
 /* Evaluation Styling */
 
 .evaluate {
@@ -137,7 +170,7 @@ p {
   color: white;
   cursor: pointer;
   display: inline-block;
-  font-family: 'Lalezar' serif;
+  font-family: 'Open Sans';
   font-size: 14px;
   font-weight: 500;
   height: 40px;
@@ -160,3 +193,11 @@ p {
 .button-evaluate:focus {
   background-color: #a4a0ed;
 }
+
+/* Footer Styling */
+
+.footer {
+  background-color: #534787;
+  color: white;
+}
+
